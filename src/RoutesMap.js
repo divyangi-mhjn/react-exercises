@@ -14,4 +14,8 @@ export const ROUTES_MAP = [
 {
     path: '/progressBar',
     name: 'Progress Bar'
+},
+{
+    path: '/modal',
+    name: 'Open Modal'
 }]

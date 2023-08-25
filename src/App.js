@@ -4,6 +4,7 @@ import GeneratorHome from './exercises/passwordGenerator/GeneratorHome'
 import EmiHome from './exercises/emiCalculator/EmiHome';
 import SearchHome from './exercises/SearchBar/SearchBarHome';
 import ProgressBarHome from './exercises/ProgressBar/ProgressBarHome';
+import ModalHome from './exercises/Modal/ModalHome';
 import NavBar from './NavBar';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/password" element={<GeneratorHome />} />
           <Route path="/emi" element={<EmiHome />} />
           <Route path="/progressBar" element={<ProgressBarHome />} />
+          <Route path="/modal" element={<ModalHome />} />
         </Routes>
       </BrowserRouter>
 
