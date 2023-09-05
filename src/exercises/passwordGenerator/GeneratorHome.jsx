@@ -59,12 +59,12 @@ const GeneratorHome = () => {
             </div>
 
             <div style={{ padding: 20, display: 'flex', justifyContent: 'space-evenly', flexWrap: 'wrap', margin: '0px 0px 0px 40px' }}>
-              <div style={{ width: '50%' }}><input type='checkbox' id="capital" onClick={(e) => onCheckBoxClick(e)} /><span>Should include Capital Letters</span></div>
-              <div style={{ width: '50%' }}><input type='checkbox' id="lower" onClick={(e) => onCheckBoxClick(e)} /><span>Should include lowercase letters</span></div>
-              <div style={{ width: '50%' }}><input type='checkbox' id="number" onClick={(e) => onCheckBoxClick(e)} /><span>Should include numericals</span> </div>
-              <div style={{ width: '50%' }}><input type='checkbox' id="symbol" onClick={(e) => onCheckBoxClick(e)} /><span>Should include symbols </span></div>
+              <div style={{ width: '50%' }}><input type='checkbox' id="capital" onClick={onCheckBoxClick} /><span>Should include Capital Letters</span></div>
+              <div style={{ width: '50%' }}><input type='checkbox' id="lower" onClick={onCheckBoxClick} /><span>Should include lowercase letters</span></div>
+              <div style={{ width: '50%' }}><input type='checkbox' id="number" onClick={onCheckBoxClick} /><span>Should include numericals</span> </div>
+              <div style={{ width: '50%' }}><input type='checkbox' id="symbol" onClick={onCheckBoxClick} /><span>Should include symbols </span></div>
             </div>
-           
+
             <div style={{ display: 'flex', justifyContent: 'center' }} >
               <button style={{ backgroundColor: '#4CAF50', padding: 10, color: 'white', border: 'none', borderRadius: 3 }} onClick={handleOnClick}>Generate Password</button>
             </div>
