@@ -6,6 +6,7 @@ import SearchHome from './exercises/SearchBar/SearchBarHome';
 import ProgressBarHome from './exercises/ProgressBar/ProgressBarHome';
 import ModalHome from './exercises/Modal/ModalHome';
 import NavBar from './NavBar';
+import TimerHome from './exercises/timer/TimerHome'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/emi" element={<EmiHome />} />
           <Route path="/progressBar" element={<ProgressBarHome />} />
           <Route path="/modal" element={<ModalHome />} />
+          <Route path="/timer" element={<TimerHome />} />
         </Routes>
       </BrowserRouter>
 

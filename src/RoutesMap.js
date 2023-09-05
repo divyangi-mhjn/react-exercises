@@ -18,4 +18,9 @@ export const ROUTES_MAP = [
 {
     path: '/modal',
     name: 'Open Modal'
-}]
+},
+{
+    path: '/timer',
+    name: 'Start Timer'
+}
+]
